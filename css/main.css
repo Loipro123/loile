@@ -11,7 +11,9 @@ Typography
   .skil,
   .banner,
   .about,
-  .header-content {
+  .header-content,
+  .food_app,
+  .background_img {
     max-width: 100% !important;
     overflow-x: hidden !important;
   }
