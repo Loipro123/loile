@@ -7,10 +7,18 @@ Typography
   body {
     overflow-x: hidden !important;
   }
-  .container {
+  .container,
+  .skil,
+  .banner,
+  .about,
+  .header-content {
     max-width: 100% !important;
     overflow-x: hidden !important;
   }
+  /* *:not(.nav-toggle) {
+    max-width: 100% !important;
+    overflow-x: hidden;
+  } */
 }
 
 p {
