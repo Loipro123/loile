@@ -340,9 +340,18 @@ ul li {
   width: 100vw;
   position: relative;
 }
+@media only screen and (max-width: 850px) {
+  .banner {
+    background-image: url(../images/background_mobile.png);
+  }
+  .container-banner {
+    left: -10%;
+    top: -40px;
+  }
+}
 .container-banner {
   margin-left: 37%;
-  margin-top: 253px;
+  margin-top: 230px;
   width: 37%;
   height: 380px;
   display: flex;
@@ -359,9 +368,18 @@ ul li {
   }
 }
 @media only screen and (max-width: 1000px) {
+  .container-banner {
+    flex-direction: row;
+    width: 70%;
+    margin-left: 25%;
+  }
   .banner-button1 {
+    font-size: 17px;
+    padding: 10px 20px;
   }
   .banner-button2 {
+    font-size: 17px;
+    padding: 10px 20px;
   }
 }
 .banner-text {
