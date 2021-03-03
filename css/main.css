@@ -735,8 +735,33 @@ ul li {
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  width: 100%;
+  width: 96%;
   height: 100%;
+  top: 0;
+  left: 2%;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.work1:hover .background_img {
+  opacity: 0.2;
+}
+.work1 {
+  position: relative;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.background_text {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
 }
 .food_app {
   background-image: url(../images/ga-quay-ngon.webp);
