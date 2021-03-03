@@ -3,7 +3,7 @@
 /* ==========================================================================
 Typography
 ========================================================================== */
-@media screen and (max-width: 667px) {
+/* @media screen and (max-width: 667px) {
   body {
     overflow-x: hidden !important;
   }
@@ -17,12 +17,10 @@ Typography
     max-width: 100% !important;
     overflow-x: hidden !important;
   }
-  /* *:not(.nav-toggle) {
-    max-width: 100% !important;
-    overflow-x: hidden;
-  } */
+  
+} */
+* {
 }
-
 p {
   font-size: 14px;
   line-height: 22.4px;
@@ -99,6 +97,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   color: #6c7279;
+  overflow-x: hidden !important;
 }
 
 ul,
