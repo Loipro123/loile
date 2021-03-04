@@ -60,7 +60,7 @@ h5 {
 }
 
 .btn {
-  background-color: rgb(19, 1, 255);
+  background-color: rgb(34, 49, 44);
   color: #fff;
   font-size: 13px;
   font-weight: 600;
@@ -73,7 +73,7 @@ h5 {
 }
 .icon_h:hover,
 .icon_h:focus {
-  background-color: rgb(19, 1, 255);
+  background-color: rgb(34, 49, 44);
   color: #fff;
 }
 .btn-large {
@@ -84,16 +84,16 @@ h5 {
 	General Styles
 ========================================================================== */
 a {
-  color: rgb(19, 1, 255);
+  color: rgb(34, 49, 44);
 }
 
 a:hover,
 a:focus {
   text-decoration: none;
-  -moz-transition: background-color, rgb(19, 1, 255), 0.3s;
-  -o-transition: background-color, rgb(19, 1, 255), 0.3s;
-  -webkit-transition: background-color, rgb(19, 1, 255) 0.3s;
-  transition: background-color, rgb(19, 1, 255), 0.3s;
+  -moz-transition: background-color, rgb(34, 49, 44), 0.3s;
+  -o-transition: background-color, rgb(34, 49, 44), 0.3s;
+  -webkit-transition: background-color, rgb(34, 49, 44) 0.3s;
+  transition: background-color, rgb(34, 49, 44), 0.3s;
 }
 
 body {
@@ -153,7 +153,7 @@ ul li {
 }
 
 #header.fixed {
-  background-color: rgb(121, 118, 118);
+  background-color: rgb(44, 75, 59);
 }
 #header.fixed .header-content {
   border-bottom: 0;
@@ -449,13 +449,21 @@ ul li {
   color: rgb(251, 175, 149);
   transition: all 1s;
 }
-.banner-button2:hover {
-  color: white;
+.banner-button2:hover,
+:active {
+  color: white !important;
   background-color: rgb(251, 175, 149);
 }
-.banner-button1:hover {
+.banner-button1:hover,
+:active {
   color: rgb(251, 175, 149);
   background-color: transparent;
+}
+.banner-button1:visited {
+  color: white;
+}
+.banner-button2:visited {
+  color: rgb(251, 175, 149);
 }
 .banner-text h1 {
   color: #fff;
@@ -870,7 +878,7 @@ ul li {
 .icon_in {
   margin-right: 25px;
   font-size: 30px;
-  color: blue;
+  color: rgb(34, 49, 44);
 }
 /* ==========================================================================
 	$Works; rgb(123,210,243)
@@ -1063,8 +1071,8 @@ ul li {
 }
 .social-icons a:hover,
 .footer .footer-share a:hover {
-  background-color: rgb(19, 1, 255);
-  border-color: rgb(19, 1, 255);
+  background-color: rgb(34, 49, 44);
+  border-color: rgb(34, 49, 44);
   color: #fff;
 }
 
@@ -1072,7 +1080,7 @@ ul li {
 	$Testimonials
 ========================================================================== */
 .testimonials {
-  background-color: rgb(33, 45, 60);
+  background-color: rgb(34, 49, 44);
   position: relative;
 }
 .testimonials blockquote {
@@ -1116,11 +1124,11 @@ ul li {
   text-align: center;
 }
 .footer-top {
-  background-color: #3a3e64;
+  background-color: rgb(44, 75, 59);
   padding-top: 50px;
 }
 .footer-bottom {
-  background-color: #313454;
+  background-color: rgb(34, 49, 44);
   padding: 20px 0;
 }
 .footer .footer-col {
