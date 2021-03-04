@@ -16,6 +16,11 @@ html {
 }
 @media only screen and (max-width: 1000px) {
   .container-banner_header {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .container-banner_header {
     display: none;
   }
 }
@@ -148,7 +153,7 @@ ul li {
 }
 
 #header.fixed {
-  background-color: rgb(198, 198, 198);
+  background-color: rgb(121, 118, 118);
 }
 #header.fixed .header-content {
   border-bottom: 0;
@@ -223,7 +228,7 @@ ul li {
   transition-property: transform;
 }
 .nav-toggle:before {
-  background-color: #e84545;
+  background-color: rgb(251, 175, 149);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   -webkit-transform: scale(1);
@@ -234,7 +239,7 @@ ul li {
   transition-duration: 0.3s;
 }
 .nav-toggle:after {
-  background-color: #e84545;
+  background-color: rgb(251, 175, 149);
   -moz-transform: scale(0);
   -ms-transform: scale(0);
   -webkit-transform: scale(0);
@@ -346,7 +351,7 @@ ul li {
   }
   .container-banner {
     left: -10%;
-    top: -40px;
+    top: -100px;
   }
   #header.fixed {
     background-color: rgb(44, 75, 59);
@@ -405,12 +410,13 @@ ul li {
   }
   .banner-button1 {
     padding: 10px 30px;
-    width: 205px !important;
+    width: 200px !important;
   }
   .banner-button2 {
     margin-top: 20px;
     padding: 10px 30px;
     width: 200px !important;
+    margin-left: -10px;
   }
 }
 .banner-text {
@@ -428,6 +434,7 @@ ul li {
   border: 1px solid rgb(251, 175, 149);
   border-radius: 5px;
   color: white;
+  transition: all 1s;
 }
 .banner-button2 {
   font-size: 18px;
@@ -440,6 +447,15 @@ ul li {
   border: 1px solid rgb(251, 175, 149);
   border-radius: 5px;
   color: rgb(251, 175, 149);
+  transition: all 1s;
+}
+.banner-button2:hover {
+  color: white;
+  background-color: rgb(251, 175, 149);
+}
+.banner-button1:hover {
+  color: rgb(251, 175, 149);
+  background-color: transparent;
 }
 .banner-text h1 {
   color: #fff;
