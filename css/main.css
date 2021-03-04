@@ -348,7 +348,20 @@ ul li {
     left: -10%;
     top: -40px;
   }
+  #header.fixed {
+    background-color: rgb(44, 75, 59);
+  }
 }
+@media only screen and (max-width: 500px) {
+  .banner {
+    background-image: url(../images/background_mobile1.png);
+  }
+  .container-banner {
+    width: 100%;
+    left: -10%;
+  }
+}
+
 .container-banner {
   margin-left: 37%;
   margin-top: 230px;
@@ -369,7 +382,6 @@ ul li {
 }
 @media only screen and (max-width: 1000px) {
   .container-banner {
-    flex-direction: row;
     width: 70%;
     margin-left: 25%;
   }
@@ -380,6 +392,25 @@ ul li {
   .banner-button2 {
     font-size: 17px;
     padding: 10px 20px;
+  }
+}
+@media only screen and (max-width: 395px) {
+  .container-banner_text {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-button1 {
+    padding: 10px 30px;
+    width: 205px !important;
+  }
+  .banner-button2 {
+    margin-top: 20px;
+    padding: 10px 30px;
+    width: 200px !important;
   }
 }
 .banner-text {
@@ -456,7 +487,7 @@ ul li {
 
 .circle-wrap .circle .mask .fill {
   clip: rect(0px, 75px, 150px, 0px);
-  background-color: rgb(177, 180, 146);
+  background-color: rgb(44, 75, 59);
 }
 
 .circle-wrap .circle .mask.full,
@@ -511,7 +542,7 @@ ul li {
 
 .circle-wrap1 .circle1 .mask1 .fill1 {
   clip: rect(0px, 75px, 150px, 0px);
-  background-color: rgb(177, 180, 146);
+  background-color: rgb(44, 75, 59);
 }
 
 .circle-wrap1 .circle1 .mask1.full1,
@@ -566,7 +597,7 @@ ul li {
 
 .circle-wrap2 .circle2 .mask2 .fill2 {
   clip: rect(0px, 75px, 150px, 0px);
-  background-color: rgb(177, 180, 146);
+  background-color: rgb(44, 75, 59);
 }
 
 .circle-wrap2 .circle2 .mask2.full2,
@@ -622,7 +653,7 @@ ul li {
 
 .circle-wrap3 .circle3 .mask3 .fill3 {
   clip: rect(0px, 75px, 150px, 0px);
-  background-color: rgb(177, 180, 146);
+  background-color: rgb(44, 75, 59);
 }
 
 .circle-wrap3 .circle3 .mask3.full3,
